@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background: url(img/fondo02.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+
+header{
+    background: black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    display: flex;
+    gap: 30px;
+}
+
+#imagen{
+    width: 200px;
+}
+
+#palabra_a_adivinar{
+    height: 3em;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; /* sin esto, por ser un elemento de línea, no tomaría el width */
+}
+
+#letras{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+#letras button{
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+}
+footer img {
+    background-color: #d8dfe8;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 20px;
+  }
+  footer {
+    background-color: #101010;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    color: #d8dfe8;
+    font-size: 16px;
+    text-align: center;
+  }
