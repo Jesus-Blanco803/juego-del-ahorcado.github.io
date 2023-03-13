@@ -1,1 +1,0 @@
-# juego-del-ahorcado.github.io
